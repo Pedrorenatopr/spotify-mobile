@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    width: 100%;
+}
+
+.boa-noite {
+    padding-left: 1em;
+}
+
+.sino {
+    position: absolute;
+    width: 40px;
+    height: 37.89px;
+    left: 283px;
+    top: 45px;
+}
+
+.config {
+    position: absolute;
+    width: 39px;
+    height: 30px;
+    left: 365px;
+    top: 45px;
+}
+
+.section-um {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 1em; 
+}
+
+.legenda-artista-section-um {
+    position: absolute;
+    padding-left: 4em;
+    margin-top: -3em;
+    width: 30%;
+}
+
+.segunda-section {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 1em;
+}
+
+.legenda-artista-section-dois {
+    position: absolute;
+    width: 30%;
+    font-size: 12px;
+}
+
+.terceira-section {
+    margin-top: 1.5em;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 1em;
+}
+
+.legenda-footer {
+    position: absolute;
+    width: 30%;
+    font-size: 11px;
+}
+
+.icones {
+    display: flex;
+    text-align: center;
+    margin-top: 6em;
+    margin-left: 2em;
+}
